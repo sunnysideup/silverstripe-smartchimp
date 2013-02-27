@@ -1,5 +1,5 @@
 {
-	"name": "silverstripe/smartchimp",
+	"name": "sunnysideup/smartchimp",
 	"type": "silverstripe-module",
 	"description": "connect a Silverstripe website with Mail Chimp",
 	"homepage": "http://www.silverstripe-webdevelopment.com",
