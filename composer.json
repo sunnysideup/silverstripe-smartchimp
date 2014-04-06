@@ -3,7 +3,7 @@
 	"type": "silverstripe-module",
 	"description": "connect a Silverstripe website with Mail Chimp",
 	"homepage": "http://www.silverstripe-webdevelopment.com",
-	"keywords": ["smartchimp", "silverstripe"],
+	"keywords": ["smartchimp", "silverstripe", "mail chimp", "newsletters", "newsletter", "mail chimp"],
 	"license": "Sunny Side Up (BSD-3-Clause and CUSTOM)",
 	"authors":[
 		{
@@ -18,5 +18,5 @@
 	},
 	"extra": {
 		"installer-name": "smartchimp"
-	}	
+	}
 }
