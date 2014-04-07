@@ -1,14 +1,11 @@
-###############################################
 Smart Chimp
-Pre 0.1 proof of concept
-###############################################
+-----------------------------------------------
 
 Developer
 -----------------------------------------------
 basics: John [at] smartplugsdesign.com
 further work: nivanka
 Nicolaas Francken [at] sunnysideup.co.nz SS Integration
-Also, a great thank you
 
 
 Requirements
