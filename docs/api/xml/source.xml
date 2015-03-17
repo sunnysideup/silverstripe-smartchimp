@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<source xmlns="http://xml.phpdox.net/src">
+  <dir name="/var/www/_modules/smartchimp/trunk">
+    <file name="_config.php" size="562" time="2015-03-14T10:23:21+13:00" unixtime="1426281801" sha1="a6a60bfd625ff193018cc9c4533ef93c1c96a7e8" xml="tokens/_config.php.xml"/>
+    <dir name="code">
+      <file name="SmartChimpSignupPage.php" size="8302" time="2015-03-14T10:23:21+13:00" unixtime="1426281801" sha1="31df878fb55d777e9fbefcb7fa487f808fd744b3" xml="tokens/code/SmartChimpSignupPage.php.xml"/>
+      <dir name="security">
+        <file name="MemberRoleSmartChimpExtension.php" size="2682" time="2015-03-14T10:23:21+13:00" unixtime="1426281801" sha1="088fad2ffe737db2aa43366e89c75624b70ddf27" xml="tokens/code/security/MemberRoleSmartChimpExtension.php.xml"/>
+      </dir>
+      <dir name="widgets">
+        <file name="SmartChimpSignupWidget.php" size="1322" time="2015-03-14T10:23:21+13:00" unixtime="1426281801" sha1="8ff42222c956b8926c0a045cb8caedd547ac0b49" xml="tokens/code/widgets/SmartChimpSignupWidget.php.xml"/>
+      </dir>
+    </dir>
+    <dir name="lang">
+      <file name="en_US.php" size="190" time="2015-03-14T10:23:21+13:00" unixtime="1426281801" sha1="9c1e9e0ac7cad022f6565e8255e88d045a9483a1" xml="tokens/lang/en_US.php.xml"/>
+    </dir>
+  </dir>
+</source>

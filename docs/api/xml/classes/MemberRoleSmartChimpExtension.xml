@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="MemberRoleSmartChimpExtension" namespace="" name="MemberRoleSmartChimpExtension" abstract="false" final="false" start="9" end="80">
+  <file path="/var/www/_modules/smartchimp/trunk/docs/en/phpdox/../../../code/security" file="MemberRoleSmartChimpExtension.php" realpath="/var/www/_modules/smartchimp/trunk/code/security/MemberRoleSmartChimpExtension.php" size="2682" time="2015-03-14T10:23:21+13:00" unixtime="1426281801" sha1="088fad2ffe737db2aa43366e89c75624b70ddf27" relative="code/security/MemberRoleSmartChimpExtension.php"/>
+  <docblock>
+    <description/>
+    <description/>
+    <author value="nicolaas[at]sunnysideup.co.nz"/>
+  </docblock>
+  <extends full="DataObjectDecorator" namespace="" name="DataObjectDecorator"/>
+  <member name="sign_up_checkbox_label" type="string" default="'Sign-up for newsletter'" visibility="protected" line="11"/>
+  <method name="set_sign_up_checkbox_label" start="12" end="12" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="v" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="get_sign_up_checkbox_label" start="13" end="13" abstract="false" final="false" static="true" visibility="public"/>
+  <method name="extraDBFields" start="16" end="22" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="updateCMSFields" start="25" end="30" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="fields" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="augmentEcommerceFields" start="36" end="41" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Return the member fields to be shown on {@link OrderForm}."/>
+      <return type="object">
+        <type full="FieldSet" namespace="" name="FieldSet"/>
+      </return>
+    </docblock>
+    <parameter name="fields" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="onAfterWrite" start="44" end="74" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="signupPage" start="76" end="78" abstract="false" final="false" static="false" visibility="public"/>
+</class>

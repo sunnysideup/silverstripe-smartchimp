@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="SmartChimpSignupPage" namespace="" name="SmartChimpSignupPage" abstract="false" final="false" start="3" end="203">
+  <file path="/var/www/_modules/smartchimp/trunk/docs/en/phpdox/../../../code" file="SmartChimpSignupPage.php" realpath="/var/www/_modules/smartchimp/trunk/code/SmartChimpSignupPage.php" size="8302" time="2015-03-14T10:23:21+13:00" unixtime="1426281801" sha1="31df878fb55d777e9fbefcb7fa487f808fd744b3" relative="code/SmartChimpSignupPage.php"/>
+  <extends full="Page" namespace="" name="Page"/>
+  <member name="icon" type="string" default="&quot;smartchimp/images/treeicons/SmartChimpSignupPage&quot;" visibility="public" line="5"/>
+  <member name="db" type="array" visibility="public" line="7"/>
+  <member name="has_many" type="array" visibility="public" line="21"/>
+  <member name="defaults" type="array" visibility="public" line="25"/>
+  <member name="mc_api_version" type="string" default="'1.2.1'" visibility="public" line="32"/>
+  <member name="api" type="{unknown}" default="null" visibility="protected" line="34"/>
+  <method name="getAPI" start="36" end="44" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="getCMSFields" start="47" end="75" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="SmartChimpNewslettersTable" start="77" end="89" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="SmartChimpNewslettersShow" start="91" end="93" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="RetrieveCampaigns" start="95" end="132" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="subscribe" start="135" end="150" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="email" byreference="false" type="{unknown}"/>
+    <parameter name="firstname" byreference="false" type="{unknown}"/>
+    <parameter name="lastname" byreference="false" type="{unknown}"/>
+    <inline>
+      <comment value="NOTE: update existing is set to false to not accidentally resubscribe someone." line="142"/>
+    </inline>
+  </method>
+  <method name="unsubscribe" start="152" end="162" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="email" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="onBeforeWrite" start="164" end="176" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="onAfterWrite" start="178" end="181" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="requireDefaultRecords" start="185" end="200" abstract="false" final="false" static="false" visibility="public"/>
+</class>
