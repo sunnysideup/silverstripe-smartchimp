@@ -3,8 +3,10 @@
     "type": "silverstripe-module",
     "description": "connect a Silverstripe website with Mail Chimp",
     "keywords": [
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe",
         "smartchimp",
-        "silverstripe",
         "mail chimp",
         "newsletters",
         "newsletter",
@@ -19,7 +21,8 @@
         }
     ],
     "require": {
-        "silverstripe/framework": "~2.4"
+        "silverstripe/framework": "~2.4",
+        "silverstripe/cms": "~2.4"
     },
     "extra": {
         "installer-name": "smartchimp"

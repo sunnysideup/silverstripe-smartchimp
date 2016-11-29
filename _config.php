@@ -13,5 +13,3 @@
 //DataObject::add_extension('Member', 'MemberRoleSmartChimpExtension');
 //MemberRoleSmartChimpExtension::set_sign_up_checkbox_label("sign up for newsletter");
 //===================---------------- END googleAnalyticsbasics MODULE ----------------===================
-
-
