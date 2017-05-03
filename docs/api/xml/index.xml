@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<index xmlns="http://xml.phpdox.net/src" basedir="/var/www/_modules/smartchimp/trunk">
-  <namespace name="">
-    <class name="SmartChimpSignupPage" src="code/SmartChimpSignupPage.php" xml="classes/SmartChimpSignupPage.xml"/>
-    <class name="SmartChimpSignupPage_Controller" src="code/SmartChimpSignupPage.php" xml="classes/SmartChimpSignupPage_Controller.xml"/>
-    <class name="MemberRoleSmartChimpExtension" src="code/security/MemberRoleSmartChimpExtension.php" xml="classes/MemberRoleSmartChimpExtension.xml"/>
-    <class name="SmartChimpSignupWidget" src="code/widgets/SmartChimpSignupWidget.php" description="Shows a widget encouraging users to sign up by months or years." xml="classes/SmartChimpSignupWidget.xml"/>
-  </namespace>
-</index>
